@@ -34,16 +34,5 @@ docker run -v <host_path>:<container_path> -ti bryankp/swift_kitura:latest bash
 
 
 * To use the swift repl while running docker on macos the container needs to be run with the following flag --privileged
-    * Example ```docker run --privileged -v $(pwd):/temp -ti kit:latest bash```
+    * Example ```docker run --privileged -v <host_path>:<container_path> -ti bryankp/swift_kitura:latest bash```
     * see https://github.com/apple/swift-docker/issues/9
-
-
-
-
-
-
-
-
-
-
-
