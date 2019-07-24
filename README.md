@@ -23,6 +23,11 @@ docker run -v <host_path>:<container_path> -ti swift_kitura:latest bash
 docker pull bryankp/swift_kitura:latest
 ```
 
+* To run with bash and a shared volume
+```BASH
+docker run -v <host_path>:<container_path> -ti bryankp/swift_kitura:latest bash
+```
+
 ### Further Details
 * [Swift Official Docker Images](https://hub.docker.com/_/swift)
 * For troubleshooting issues see the [Kitura Docs](https://www.kitura.io/index.html)
